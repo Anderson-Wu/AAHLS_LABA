@@ -288,7 +288,7 @@ Observation:
 
 ### **Implement AXI4-LITE Interfaces**
 
-![](./img/Lab4_axi_directive.png)
+![](./img/Lab4_axi_directive.png)  
 We add interface with mode s_axilite to specify AXI4-Lite interface.
 
 
