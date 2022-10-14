@@ -1,0 +1,43 @@
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'Anderson' on host 'desktop-iduqo1o' (Windows NT_amd64 version 6.2) on Fri Oct 14 21:33:45 +0800 2022
+INFO: [HLS 200-10] In directory 'D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab1'
+Sourcing Tcl script 'D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab1/adders_prj/solution2/cosim.tcl'
+INFO: [HLS 200-1510] Running: source D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab1/adders_prj/solution2/cosim.tcl
+INFO: [HLS 200-1510] Running: open_project adders_prj 
+INFO: [HLS 200-10] Opening project 'D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab1/adders_prj'.
+INFO: [HLS 200-1510] Running: set_top adders 
+INFO: [HLS 200-1510] Running: add_files adders.h 
+INFO: [HLS 200-10] Adding design file 'adders.h' to the project
+INFO: [HLS 200-1510] Running: add_files adders.c 
+INFO: [HLS 200-10] Adding design file 'adders.c' to the project
+INFO: [HLS 200-1510] Running: add_files -tb adders_test.c -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'adders_test.c' to the project
+INFO: [HLS 200-1510] Running: open_solution solution2 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab1/adders_prj/solution2'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.25ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flgb2104-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_latency=0
+INFO: [HLS 200-1510] Running: set_part xcvu9p-flgb2104-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 3.25 -name default 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_latency 0 
+INFO: [HLS 200-1510] Running: source ./adders_prj/solution2/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name adders adders 
+INFO: [HLS 200-1510] Running: cosim_design -trace_level all 
+ERROR: [COSIM 212-345] Cosim only supports the following 'ap_ctrl_none' designs: (1) combinational designs; (2) pipelined design with II of 1; (3) designs with array streaming or hls_stream or AXI4 stream ports.
+ERROR: [COSIM 212-5] *** C/RTL co-simulation file generation failed. ***
+ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***
+INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.698 seconds; current allocated memory: 0.000 MB.
+command 'ap_source' returned error code
+    while executing
+"source D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab1/adders_prj/solution2/cosim.tcl"
+    invoked from within
+"hls::main D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab1/adders_prj/solution2/cosim.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$newargs"
+    (procedure "hls_proc" line 16)
+    invoked from within
+"hls_proc [info nameofexecutable] $argv"
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 2 seconds. Total elapsed time: 4.594 seconds; peak allocated memory: 1.449 GB.

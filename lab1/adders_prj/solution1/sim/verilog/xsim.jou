@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# xsim v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Oct 14 21:38:26 2022
+# Process ID: 12012
+# Current directory: D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab1/adders_prj/solution1/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/adders/xsim_script.tcl}
+# Log file: D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab1/adders_prj/solution1/sim/verilog/xsim.log
+# Journal file: D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab1/adders_prj/solution1/sim/verilog\xsim.jou
+# Running On: DESKTOP-IDUQO1O, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 12764 MB
+#-----------------------------------------------------------
+source xsim.dir/adders/xsim_script.tcl
+open_wave_config adders_dataflow_ana.wcfg
+source adders.tcl

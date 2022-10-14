@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_7' is power-on initialization." projectName="array_io_prj" solutionName="solution4" date="2022-10-14T21:55:55.710+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_6' is power-on initialization." projectName="array_io_prj" solutionName="solution4" date="2022-10-14T21:55:55.616+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_5' is power-on initialization." projectName="array_io_prj" solutionName="solution4" date="2022-10-14T21:55:55.589+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_4' is power-on initialization." projectName="array_io_prj" solutionName="solution4" date="2022-10-14T21:55:55.569+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_3' is power-on initialization." projectName="array_io_prj" solutionName="solution4" date="2022-10-14T21:55:55.540+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_2' is power-on initialization." projectName="array_io_prj" solutionName="solution4" date="2022-10-14T21:55:55.509+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_1' is power-on initialization." projectName="array_io_prj" solutionName="solution4" date="2022-10-14T21:55:55.479+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_0' is power-on initialization." projectName="array_io_prj" solutionName="solution4" date="2022-10-14T21:55:55.459+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 214-322] Unsuported scalar variable on pragma 'ap_fifo Interface', ignore it. (D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab3/array_io_prj/solution4/directives.tcl:8:9)" projectName="array_io_prj" solutionName="solution4" date="2022-10-14T21:55:52.686+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_7' is power-on initialization." projectName="array_io_prj" solutionName="solution3" date="2022-10-14T21:54:22.420+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_6' is power-on initialization." projectName="array_io_prj" solutionName="solution3" date="2022-10-14T21:54:22.343+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_5' is power-on initialization." projectName="array_io_prj" solutionName="solution3" date="2022-10-14T21:54:22.314+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_4' is power-on initialization." projectName="array_io_prj" solutionName="solution3" date="2022-10-14T21:54:22.296+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_3' is power-on initialization." projectName="array_io_prj" solutionName="solution3" date="2022-10-14T21:54:22.270+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_2' is power-on initialization." projectName="array_io_prj" solutionName="solution3" date="2022-10-14T21:54:22.258+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_1' is power-on initialization." projectName="array_io_prj" solutionName="solution3" date="2022-10-14T21:54:22.233+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_0' is power-on initialization." projectName="array_io_prj" solutionName="solution3" date="2022-10-14T21:54:22.217+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 214-142] Implementing stream: may cause mismatch if read and write accesses are not in sequential order on port 'd_o_3' (array_io.c:57:0)&#xD;&#xA;Resolution: For help on HLS 214-142 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=214-142.html" projectName="array_io_prj" solutionName="solution3" date="2022-10-14T21:54:20.390+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 214-142] Implementing stream: may cause mismatch if read and write accesses are not in sequential order on port 'd_o_2' (array_io.c:57:0)&#xD;&#xA;Resolution: For help on HLS 214-142 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=214-142.html" projectName="array_io_prj" solutionName="solution3" date="2022-10-14T21:54:20.336+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 214-142] Implementing stream: may cause mismatch if read and write accesses are not in sequential order on port 'd_o_1' (array_io.c:57:0)&#xD;&#xA;Resolution: For help on HLS 214-142 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=214-142.html" projectName="array_io_prj" solutionName="solution3" date="2022-10-14T21:54:20.313+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 214-142] Implementing stream: may cause mismatch if read and write accesses are not in sequential order on port 'd_o_0' (array_io.c:57:0)&#xD;&#xA;Resolution: For help on HLS 214-142 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=214-142.html" projectName="array_io_prj" solutionName="solution3" date="2022-10-14T21:54:20.287+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 214-340] The resource pragma (bind_storage) on top-level function argument, in 'call' is unsupported, please use INTERFACE pragma instead (D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab3/array_io_prj/solution3/directives.tcl:8:9)" projectName="array_io_prj" solutionName="solution3" date="2022-10-14T21:54:20.256+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_7' is power-on initialization." projectName="array_io_prj" solutionName="solution2" date="2022-10-14T21:53:05.929+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_6' is power-on initialization." projectName="array_io_prj" solutionName="solution2" date="2022-10-14T21:53:05.806+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_5' is power-on initialization." projectName="array_io_prj" solutionName="solution2" date="2022-10-14T21:53:05.789+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_4' is power-on initialization." projectName="array_io_prj" solutionName="solution2" date="2022-10-14T21:53:05.758+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_3' is power-on initialization." projectName="array_io_prj" solutionName="solution2" date="2022-10-14T21:53:05.740+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'acc_2' is power-on initialization." projectName="array_io_prj" solutionName="solution2" date="2022-10-14T21:53:05.710+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

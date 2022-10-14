@@ -1,0 +1,10 @@
+<pragmas>
+<pragma file="adders.c" line="49" pragmaType="interface" parentfunction="adders" mode="ap_ctrl_none" port="return" name=""/>
+<pragma file="adders.c" line="53" pragmaType="interface" parentfunction="adders" mode="ap_none" port="in1" name="" register="0"/>
+<pragma file="adders.c" line="54" pragmaType="interface" parentfunction="adders" mode="ap_none" port="in2" name="" register="0"/>
+<pragma file="adders.c" line="55" pragmaType="interface" parentfunction="adders" mode="ap_none" port="in3" name="" register="0"/>
+<pragma file="adders.c" line="56" pragmaType="interface" parentfunction="adders" mode="ap_none" port="in4" name="" register="0"/>
+<pragma file="adders.c" line="57" pragmaType="interface" parentfunction="adders" mode="ap_none" port="in5" name="" register="0"/>
+<pragma file="adders.c" line="58" pragmaType="interface" parentfunction="adders" mode="ap_none" port="in6" name="" register="0"/>
+<pragma file="adders.c" line="59" pragmaType="interface" parentfunction="adders" mode="ap_none" port="in7" name="" register="0"/>
+</pragmas>

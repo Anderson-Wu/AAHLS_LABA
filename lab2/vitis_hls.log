@@ -1,0 +1,70 @@
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'Anderson' on host 'desktop-iduqo1o' (Windows NT_amd64 version 6.2) on Fri Oct 14 21:47:56 +0800 2022
+INFO: [HLS 200-10] In directory 'D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab2'
+Sourcing Tcl script 'D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab2/adders_io_prj/solution1/csynth.tcl'
+INFO: [HLS 200-1510] Running: source D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab2/adders_io_prj/solution1/csynth.tcl
+INFO: [HLS 200-1510] Running: open_project adders_io_prj 
+INFO: [HLS 200-10] Opening project 'D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab2/adders_io_prj'.
+INFO: [HLS 200-1510] Running: set_top adders_io 
+INFO: [HLS 200-1510] Running: add_files adders_io.c 
+INFO: [HLS 200-10] Adding design file 'adders_io.c' to the project
+INFO: [HLS 200-1510] Running: add_files -tb adders_io_test.c -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'adders_io_test.c' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab2/adders_io_prj/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 2ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flgb2104-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_latency=0
+INFO: [HLS 200-1510] Running: set_part xcvu9p-flgb2104-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 2 -name default 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_latency 0 
+INFO: [HLS 200-1510] Running: source ./adders_io_prj/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name adders_io adders_io 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode ap_vld adders_io in1 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode ap_ack adders_io in2 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode ap_hs adders_io in_out1 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 1.457 GB.
+INFO: [HLS 200-10] Analyzing design file 'adders_io.c' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.623 seconds; current allocated memory: 1.457 GB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 4.587 seconds; current allocated memory: 1.457 GB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.003 seconds; current allocated memory: 1.457 GB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.031 seconds; current allocated memory: 1.457 GB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.027 seconds; current allocated memory: 1.457 GB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 1.457 GB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.034 seconds; current allocated memory: 1.457 GB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'adders_io' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'adders_io' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.239 seconds; current allocated memory: 1.457 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.125 seconds; current allocated memory: 1.457 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'adders_io' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'adders_io/in1' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'adders_io/in2' to 'ap_ack'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'adders_io/in_out1' to 'ap_hs' (register).
+INFO: [RTGEN 206-500] Setting interface mode on function 'adders_io' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'adders_io'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.221 seconds; current allocated memory: 1.457 GB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.557 seconds; current allocated memory: 1.457 GB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.477 seconds; current allocated memory: 1.457 GB.
+INFO: [VHDL 208-304] Generating VHDL RTL for adders_io.
+INFO: [VLOG 209-307] Generating Verilog RTL for adders_io.
+INFO: [HLS 200-789] **** Estimated Fmax: 1102.54 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 8.235 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 2 seconds. Total elapsed time: 12.088 seconds; peak allocated memory: 1.457 GB.

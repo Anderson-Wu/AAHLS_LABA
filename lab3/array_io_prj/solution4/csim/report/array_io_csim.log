@@ -1,0 +1,13 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling(apcc) ../../../../array_io.c in debug mode
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'Anderson' on host 'desktop-iduqo1o' (Windows NT_amd64 version 6.2) on Fri Oct 14 21:55:12 +0800 2022
+INFO: [HLS 200-10] In directory 'D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab3/array_io_prj/solution4/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+INFO: [HLS 200-112] Total CPU user time: 0 seconds. Total CPU system time: 1 seconds. Total elapsed time: 5.822 seconds; peak allocated memory: 1.184 MB.
+   Generating csim.exe
+Test passed !
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

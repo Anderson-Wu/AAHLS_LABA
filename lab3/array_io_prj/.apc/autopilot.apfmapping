@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="array_io.c" path="D:\Vivado_HLS_Tutorial\ug871-design-files\Interface_Synthesis\lab3\array_io.c"/>
+    <originFiles name="array_io.h" path="D:\Vivado_HLS_Tutorial\ug871-design-files\Interface_Synthesis\lab3\array_io.h"/>
+  </source>
+  <testbench>
+    <originFiles name="result.golden.dat" path="D:\Vivado_HLS_Tutorial\ug871-design-files\Interface_Synthesis\lab3\result.golden.dat"/>
+    <originFiles name="array_io_test.c" path="D:\Vivado_HLS_Tutorial\ug871-design-files\Interface_Synthesis\lab3\array_io_test.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

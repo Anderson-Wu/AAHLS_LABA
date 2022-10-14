@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# xsim v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Oct 14 19:37:41 2022
+# Process ID: 10144
+# Current directory: D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab4/axi_interfaces_prj/solution2/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/axi_interfaces/xsim_script.tcl}
+# Log file: D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab4/axi_interfaces_prj/solution2/sim/verilog/xsim.log
+# Journal file: D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab4/axi_interfaces_prj/solution2/sim/verilog\xsim.jou
+# Running On: DESKTOP-IDUQO1O, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 12764 MB
+#-----------------------------------------------------------
+source xsim.dir/axi_interfaces/xsim_script.tcl
+# xsim {axi_interfaces} -autoloadwcfg -tclbatch {axi_interfaces.tcl}
+Time resolution is 1 ps
+source axi_interfaces.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "110000"
+// RTL Simulation : 1 / 1 [100.00%] @ "206000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 230 ns : File "D:/Vivado_HLS_Tutorial/ug871-design-files/Interface_Synthesis/lab4/axi_interfaces_prj/solution2/sim/verilog/axi_interfaces.autotb.v" Line 952
+## quit
+INFO: [Common 17-206] Exiting xsim at Fri Oct 14 19:37:44 2022...
